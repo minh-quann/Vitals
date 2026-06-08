@@ -1122,7 +1122,7 @@
             <property name="margin_bottom">5</property>
             <property name="margin-start">5</property>
             <property name="margin-end">5</property>
-            <property name="label" translatable="yes">Feature requests or bugs? Please visit &lt;a href=&quot;https://github.com/corecoding/Vitals/issues&quot;&gt;GitHub&lt;/a&gt;. No warranty, expressed or implied. &lt;a href=&quot;https://corecoding.com/donate.php&quot;&gt;Donate&lt;/a&gt; if you found this useful.</property>
+            <property name="label" translatable="yes">Feature requests or bugs? Please visit &lt;a href=&quot;https://github.com/minh-quann/Vitals/issues&quot;&gt;GitHub&lt;/a&gt;. No warranty, expressed or implied.</property>
             <property name="use_markup">1</property>
             <property name="wrap">1</property>
             <property name="xalign">0</property>
