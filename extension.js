@@ -1198,8 +1198,12 @@ var VitalsMenuButton = GObject.registerClass({
             this._menuStateChangeId = 0;
         }
 
-        for (let signal of Object.values(this._settingChangedSignals))
-            this._settings.disconnect(signal);
+        if (this._settingChangedSignals) {
+            this._settingChangedSignals.forEach(signal => {
+                this._settings.disconnect(signal);
+            });
+            this._settingChangedSignals = null;
+        }
         this._settings = null;
 
         super.destroy();
